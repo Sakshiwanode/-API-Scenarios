@@ -86,47 +86,48 @@ This checklist can be implemented with any backend stack such as:
 ## 📁 Structure Suggestion (Optional)
 
 You can organize your API like this:
-/auth
-├── register.js
-├── login.js
-├── logout.js
-├── verifyEmail.js
-├── resetPassword.js
-├── magicLinkLogin.js
-├── otpLogin.js
-├── socialLogin.js
-├── token.js
-
-/users
-├── getProfile.js
-├── updateProfile.js
-├── changePassword.js
-├── uploadAvatar.js
-├── deleteAccount.js
-├── deactivateAccount.js
-
-/security
-├── enable2FA.js
-├── verify2FA.js
-├── backupCodes.js
-├── loginHistory.js
-├── captchaValidation.js
-
-/admin
-├── blockUser.js
-├── unblockUser.js
-├── manageRoles.js
-├── userAccessLogs.js
-
-/validation
-├── checkEmail.js
-├── checkUsername.js
-├── checkPhone.js
-├── validateReferralCode.js
-
-/utils
-├── generateToken.js
-├── verifyToken.js
-├── sendEmail.js
-├── sendOTP.js
-├── hashPassword.js
+📦 project-root
+├── auth
+│   ├── register.js
+│   ├── login.js
+│   ├── logout.js
+│   ├── verifyEmail.js
+│   ├── resetPassword.js
+│   ├── magicLinkLogin.js
+│   ├── otpLogin.js
+│   ├── socialLogin.js
+│   └── token.js
+│
+├── users
+│   ├── getProfile.js
+│   ├── updateProfile.js
+│   ├── changePassword.js
+│   ├── uploadAvatar.js
+│   ├── deleteAccount.js
+│   └── deactivateAccount.js
+│
+├── security
+│   ├── enable2FA.js
+│   ├── verify2FA.js
+│   ├── backupCodes.js
+│   ├── loginHistory.js
+│   └── captchaValidation.js
+│
+├── admin
+│   ├── blockUser.js
+│   ├── unblockUser.js
+│   ├── manageRoles.js
+│   └── userAccessLogs.js
+│
+├── validation
+│   ├── checkEmail.js
+│   ├── checkUsername.js
+│   ├── checkPhone.js
+│   └── validateReferralCode.js
+│
+└── utils
+    ├── generateToken.js
+    ├── verifyToken.js
+    ├── sendEmail.js
+    ├── sendOTP.js
+    └── hashPassword.js
