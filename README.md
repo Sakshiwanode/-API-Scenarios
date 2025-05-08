@@ -82,8 +82,7 @@ This checklist can be implemented with any backend stack such as:
 - **Supabase / Auth0** (for ready-made Auth solutions)
 
 ---
-
-## 📁 Structure Suggestion (Optional)
+<details> <summary><strong>📁 Folder Structure (click to expand)</strong></summary>
 
 You can organize your API like this:
 📦 project-root
@@ -131,3 +130,4 @@ You can organize your API like this:
     ├── sendEmail.js
     ├── sendOTP.js
     └── hashPassword.js
+</details>
